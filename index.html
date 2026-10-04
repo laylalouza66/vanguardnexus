@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vanguard Nexus — Tech & Financial Consulting. We architect digital transformation and financial strategy for forward-thinking enterprises." />
+  <meta name="author" content="Vanguard Nexus" />
+  <title>Vanguard Nexus — Tech & Financial Consulting</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-bar" aria-label="Primary navigation">
+      <a href="#hero" class="logo-link" aria-label="Vanguard Nexus home">
+        <img src="images/logo.svg" alt="Vanguard Nexus logo" class="logo-img" width="36" height="36" />
+        <span class="logo-text">Vanguard<span class="logo-accent"> Nexus</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#approach" class="nav-link">Approach</a></li>
+        <li><a href="#results" class="nav-link">Results</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#insights" class="nav-link">Insights</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-mobile"><button class="btn btn--primary btn--small" data-modal-trigger>Get Started</button></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn--primary btn--small" data-modal-trigger>Schedule a Call</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="hero">
+    <div class="hero__bg-image" style="background-image: url('https://images.pexels.com/photos/425135/pexels-photo-425135.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920');"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <div class="hero__tag reveal" data-reveal>
+        <span class="hero__tag-dot"></span>
+        Trusted by 120+ enterprises worldwide
+      </div>
+      <h1 class="hero__title reveal" data-reveal data-reveal-delay="1">
+        Where Technology Meets<br /><span class="hero__title-accent">Financial Precision</span>
+      </h1>
+      <p class="hero__subtitle reveal" data-reveal data-reveal-delay="2">
+        Vanguard Nexus partners with ambitious organizations to architect digital
+        transformation, optimize capital strategy, and build resilient systems that
+        scale across markets.
+      </p>
+      <div class="hero__actions reveal" data-reveal data-reveal-delay="3">
+        <button class="btn btn--primary" data-modal-trigger>
+          Schedule a Consultation
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <a href="#services" class="btn btn--ghost">
+          Explore Services
+        </a>
+      </div>
+
+      <div class="hero__metrics reveal" data-reveal data-reveal-delay="4">
+        <div class="hero__metric">
+          <span class="hero__metric-number" data-count-to="2.4" data-suffix="B+">0</span>
+          <span class="hero__metric-label">Capital Advised</span>
+        </div>
+        <div class="hero__metric-divider"></div>
+        <div class="hero__metric">
+          <span class="hero__metric-number" data-count-to="120" data-suffix="+">0</span>
+          <span class="hero__metric-label">Enterprise Clients</span>
+        </div>
+        <div class="hero__metric-divider"></div>
+        <div class="hero__metric">
+          <span class="hero__metric-number" data-count-to="98" data-suffix="%">0</span>
+          <span class="hero__metric-label">Retention Rate</span>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="hero__scroll-indicator" aria-label="Scroll to content">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ TRUST BAR ============ -->
+  <section class="trust-bar" aria-label="Client logos">
+    <div class="container">
+      <p class="trust-bar__label">Trusted by industry leaders</p>
+      <div class="trust-bar__logos">
+        <span class="trust-logo">MERIDIAN</span>
+        <span class="trust-logo">APEX CAPITAL</span>
+        <span class="trust-logo">NORTHWIND</span>
+        <span class="trust-logo">HELIX GROUP</span>
+        <span class="trust-logo">STERLING &amp; CO</span>
+        <span class="trust-logo">ZENITH</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section section--services">
+    <div class="container">
+      <div class="section__header reveal" data-reveal>
+        <span class="section__eyebrow">What We Do</span>
+        <h2 class="section__title">Integrated consulting across<br />technology and finance</h2>
+        <p class="section__lead">
+          We bring together deep technical expertise and financial acumen to solve
+          the complex problems that define modern enterprise growth.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal" data-reveal data-reveal-delay="1">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="service-card__title">Digital Transformation</h3>
+          <p class="service-card__desc">End-to-end modernization of legacy systems, cloud migration strategy, and enterprise architecture designed for scale and longevity.</p>
+          <ul class="service-card__list">
+            <li>Cloud &amp; Infrastructure Strategy</li>
+            <li>Legacy System Modernization</li>
+            <li>DevOps &amp; Automation</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+
+        <article class="service-card reveal" data-reveal data-reveal-delay="2">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3 class="service-card__title">Financial Strategy</h3>
+          <p class="service-card__desc">Capital structuring, M&amp;A advisory, and financial modeling that aligns your balance sheet with your long-term technology roadmap.</p>
+          <ul class="service-card__list">
+            <li>Capital Optimization</li>
+            <li>M&amp;A Advisory &amp; Due Diligence</li>
+            <li>Financial Modeling &amp; Forecasting</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+
+        <article class="service-card reveal" data-reveal data-reveal-delay="3">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <h3 class="service-card__title">Data &amp; Analytics</h3>
+          <p class="service-card__desc">Turn raw enterprise data into decision-grade intelligence with modern data platforms, real-time dashboards, and predictive models.</p>
+          <ul class="service-card__list">
+            <li>Data Platform Architecture</li>
+            <li>BI &amp; Real-Time Dashboards</li>
+            <li>Predictive Analytics &amp; AI</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+
+        <article class="service-card reveal" data-reveal data-reveal-delay="4">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="service-card__title">Risk &amp; Compliance</h3>
+          <p class="service-card__desc">Regulatory frameworks, cybersecurity posture assessment, and operational risk management embedded into your technology stack.</p>
+          <ul class="service-card__list">
+            <li>Regulatory Compliance (SOC 2, GDPR)</li>
+            <li>Cybersecurity Assessment</li>
+            <li>Operational Risk Frameworks</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+
+        <article class="service-card reveal" data-reveal data-reveal-delay="5">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="service-card__title">Market Expansion</h3>
+          <p class="service-card__desc">Go-to-market strategy, international regulatory navigation, and partnership ecosystems for sustained cross-border growth.</p>
+          <ul class="service-card__list">
+            <li>Market Entry Strategy</li>
+            <li>Partnership Ecosystems</li>
+            <li>Regulatory Navigation</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+
+        <article class="service-card reveal" data-reveal data-reveal-delay="6">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="service-card__title">Technology Advisory</h3>
+          <p class="service-card__desc">CTO-level guidance on technology stack decisions, build-vs-buy analysis, and vendor selection with total cost of ownership modeling.</p>
+          <ul class="service-card__list">
+            <li>Stack &amp; Vendor Selection</li>
+            <li>Build vs. Buy Analysis</li>
+            <li>Technical Due Diligence</li>
+          </ul>
+          <button class="service-card__link" data-modal-trigger>
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section id="approach" class="section section--approach">
+    <div class="container">
+      <div class="approach__layout">
+        <div class="approach__visual reveal" data-reveal>
+          <div class="approach__image-wrap">
+            <img src="https://images.pexels.com/photos/7433853/pexels-photo-7433853.jpeg?auto=compress&cs=tinysrgb&h=800&w=1200" alt="Business professionals in a strategic meeting" loading="lazy" />
+          </div>
+          <div class="approach__badge">
+            <span class="approach__badge-number">15+</span>
+            <span class="approach__badge-label">Years of<br />Combined Practice</span>
+          </div>
+        </div>
+
+        <div class="approach__content">
+          <div class="section__header section__header--left reveal" data-reveal>
+            <span class="section__eyebrow">Our Approach</span>
+            <h2 class="section__title">A disciplined methodology,<br />not guesswork</h2>
+            <p class="section__lead">
+              Every engagement follows a structured framework that balances
+              strategic vision with operational pragmatism — because theory
+              without execution is just expensive advice.
+            </p>
+          </div>
+
+          <div class="approach__steps">
+            <div class="approach__step reveal" data-reveal data-reveal-delay="1">
+              <div class="approach__step-num">01</div>
+              <div class="approach__step-body">
+                <h4>Discovery &amp; Assessment</h4>
+                <p>Deep-dive audits of your technology stack, financial position, and organizational readiness to establish a clear baseline.</p>
+              </div>
+            </div>
+            <div class="approach__step reveal" data-reveal data-reveal-delay="2">
+              <div class="approach__step-num">02</div>
+              <div class="approach__step-body">
+                <h4>Strategy &amp; Roadmap</h4>
+                <p>A prioritized, phased plan tied to measurable milestones, budget realities, and your organization's risk appetite.</p>
+              </div>
+            </div>
+            <div class="approach__step reveal" data-reveal data-reveal-delay="3">
+              <div class="approach__step-num">03</div>
+              <div class="approach__step-body">
+                <h4>Execution &amp; Integration</h4>
+                <p>Hands-on implementation alongside your teams — not slide decks handed over at the door. We build with you.</p>
+              </div>
+            </div>
+            <div class="approach__step reveal" data-reveal data-reveal-delay="4">
+              <div class="approach__step-num">04</div>
+              <div class="approach__step-body">
+                <h4>Optimization &amp; Scale</h4>
+                <p>Continuous performance monitoring, KPI tracking, and iterative refinement to compound results over time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESULTS / STATS ============ -->
+  <section id="results" class="section section--results">
+    <div class="results__bg-image" style="background-image: url('https://images.pexels.com/photos/4604639/pexels-photo-4604639.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920');"></div>
+    <div class="results__overlay"></div>
+    <div class="container results__content">
+      <div class="section__header section__header--center section__header--light reveal" data-reveal>
+        <span class="section__eyebrow section__eyebrow--light">Outcomes</span>
+        <h2 class="section__title section__title--light">Numbers that define<br />our track record</h2>
+      </div>
+
+      <div class="results__grid">
+        <div class="result-card reveal" data-reveal data-reveal-delay="1">
+          <span class="result-card__number" data-count-to="2.4" data-suffix="B+" data-prefix="$">$0</span>
+          <span class="result-card__label">Capital Advised</span>
+          <p class="result-card__desc">Across M&amp;A, fundraising, and restructuring engagements</p>
+        </div>
+        <div class="result-card reveal" data-reveal data-reveal-delay="2">
+          <span class="result-card__number" data-count-to="340" data-suffix="%">0%</span>
+          <span class="result-card__label">Avg. ROI Uplift</span>
+          <p class="result-card__desc">Average return on technology investment within 24 months</p>
+        </div>
+        <div class="result-card reveal" data-reveal data-reveal-delay="3">
+          <span class="result-card__number" data-count-to="42" data-suffix="">0</span>
+          <span class="result-card__label">Countries Served</span>
+          <p class="result-card__desc">Engagements spanning North America, EMEA, and APAC</p>
+        </div>
+        <div class="result-card reveal" data-reveal data-reveal-delay="4">
+          <span class="result-card__number" data-count-to="98" data-suffix="%">0%</span>
+          <span class="result-card__label">Client Retention</span>
+          <p class="result-card__desc">Partners who engage us again within 18 months</p>
+        </div>
+      </div>
+
+      <div class="results__cta reveal" data-reveal data-reveal-delay="5">
+        <button class="btn btn--primary btn--large" data-modal-trigger>
+          Become Our Next Success Story
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section id="team" class="section section--team">
+    <div class="container">
+      <div class="section__header reveal" data-reveal>
+        <span class="section__eyebrow">Leadership</span>
+        <h2 class="section__title">The people behind<br />the practice</h2>
+        <p class="section__lead">
+          Senior practitioners with backgrounds at top-tier consultancies,
+          investment banks, and technology companies — now working under one roof.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card reveal" data-reveal data-reveal-delay="1">
+          <div class="team-card__image">
+            <img src="https://images.pexels.com/photos/37148308/pexels-photo-37148308.jpeg?auto=compress&cs=tinysrgb&h=600&w=500" alt="Marcus Aldridge" loading="lazy" />
+          </div>
+          <div class="team-card__body">
+            <h4 class="team-card__name">Marcus Aldridge</h4>
+            <span class="team-card__role">Managing Partner — Technology</span>
+            <p class="team-card__bio">Former CTO at a Fortune 500 fintech. 18 years architecting enterprise systems across banking, insurance, and capital markets.</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-reveal data-reveal-delay="2">
+          <div class="team-card__image">
+            <img src="https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg?auto=compress&cs=tinysrgb&h=600&w=500" alt="Elena Vossberg" loading="lazy" />
+          </div>
+          <div class="team-card__body">
+            <h4 class="team-card__name">Elena Vossberg</h4>
+            <span class="team-card__role">Managing Partner — Finance</span>
+            <p class="team-card__bio">Ex-Goldman Sachs VP with deep expertise in M&amp;A, capital structuring, and cross-border financial strategy for growth-stage firms.</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-reveal data-reveal-delay="3">
+          <div class="team-card__image">
+            <img src="https://images.pexels.com/photos/17049771/pexels-photo-17049771.jpeg?auto=compress&cs=tinysrgb&h=600&w=500" alt="Daniel Okonkwo" loading="lazy" />
+          </div>
+          <div class="team-card__body">
+            <h4 class="team-card__name">Daniel Okonkwo</h4>
+            <span class="team-card__role">Partner — Data &amp; AI</span>
+            <p class="team-card__bio">Built and scaled data platforms at two unicorns. Specializes in turning fragmented data into decision-grade intelligence.</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-reveal data-reveal-delay="4">
+          <div class="team-card__image">
+            <img src="https://images.pexels.com/photos/37605831/pexels-photo-37605831.jpeg?auto=compress&cs=tinysrgb&h=600&w=500" alt="Rajiv Mehta" loading="lazy" />
+          </div>
+          <div class="team-card__body">
+            <h4 class="team-card__name">Rajiv Mehta</h4>
+            <span class="team-card__role">Partner — Risk &amp; Compliance</span>
+            <p class="team-card__bio">Big Four audit veteran. Leads regulatory frameworks, cybersecurity posture, and operational risk engagements across industries.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSIGHTS ============ -->
+  <section id="insights" class="section section--insights">
+    <div class="container">
+      <div class="section__header reveal" data-reveal>
+        <span class="section__eyebrow">Insights</span>
+        <h2 class="section__title">Perspectives from<br />the field</h2>
+        <p class="section__lead">
+          Practical analysis on the intersection of technology, capital, and strategy —
+          written by the practitioners doing the work, not observers.
+        </p>
+      </div>
+
+      <div class="insights-grid">
+        <article class="insight-card insight-card--featured reveal" data-reveal>
+          <div class="insight-card__image">
+            <img src="https://images.pexels.com/photos/669613/pexels-photo-669613.jpeg?auto=compress&cs=tinysrgb&h=600&w=900" alt="Financial data analysis desk" loading="lazy" />
+          </div>
+          <div class="insight-card__body">
+            <span class="insight-card__tag">Strategy</span>
+            <h3 class="insight-card__title">The hidden cost of technical debt on your balance sheet</h3>
+            <p class="insight-card__excerpt">Why treating technology debt as a financial liability — not just an engineering problem — changes how boards allocate capital.</p>
+            <div class="insight-card__meta">
+              <span>Marcus Aldridge</span>
+              <span class="insight-card__dot">·</span>
+              <span>8 min read</span>
+            </div>
+            <button class="insight-card__link" data-modal-trigger>
+              Read Article
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="insight-card reveal" data-reveal data-reveal-delay="1">
+          <div class="insight-card__image">
+            <img src="https://images.pexels.com/photos/7693201/pexels-photo-7693201.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Data analytics charts" loading="lazy" />
+          </div>
+          <div class="insight-card__body">
+            <span class="insight-card__tag">Data</span>
+            <h3 class="insight-card__title">Building a real-time data platform without rebuilding everything</h3>
+            <p class="insight-card__excerpt">A pragmatic approach to incrementally migrating from batch reporting to real-time intelligence.</p>
+            <div class="insight-card__meta">
+              <span>Daniel Okonkwo</span>
+              <span class="insight-card__dot">·</span>
+              <span>6 min read</span>
+            </div>
+            <button class="insight-card__link" data-modal-trigger>
+              Read Article
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="insight-card reveal" data-reveal data-reveal-delay="2">
+          <div class="insight-card__image">
+            <img src="https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Stock market analysis tablet" loading="lazy" />
+          </div>
+          <div class="insight-card__body">
+            <span class="insight-card__tag">Finance</span>
+            <h3 class="insight-card__title">When should you raise debt vs. equity in a tech downturn?</h3>
+            <p class="insight-card__excerpt">A framework for evaluating capital structure decisions when valuations are compressed and markets are uncertain.</p>
+            <div class="insight-card__meta">
+              <span>Elena Vossberg</span>
+              <span class="insight-card__dot">·</span>
+              <span>10 min read</span>
+            </div>
+            <button class="insight-card__link" data-modal-trigger>
+              Read Article
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / CONTACT ============ -->
+  <section id="contact" class="section section--cta">
+    <div class="container">
+      <div class="cta-box reveal" data-reveal>
+        <div class="cta-box__pattern"></div>
+        <div class="cta-box__content">
+          <span class="section__eyebrow section__eyebrow--light">Let's Talk</span>
+          <h2 class="cta-box__title">Ready to architect<br />your next chapter?</h2>
+          <p class="cta-box__text">
+            Book a confidential consultation with our partners. We'll assess your
+            position, identify quick wins, and map a path to long-term value.
+          </p>
+          <div class="cta-box__actions">
+            <button class="btn btn--primary btn--large" data-modal-trigger>
+              Schedule a Consultation
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+            <button class="btn btn--outline-light btn--large" data-modal-trigger>
+              Email Our Team
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#hero" class="logo-link logo-link--footer">
+            <img src="images/logo.svg" alt="Vanguard Nexus logo" class="logo-img" width="36" height="36" />
+            <span class="logo-text">Vanguard<span class="logo-accent"> Nexus</span></span>
+          </a>
+          <p class="footer__tagline">
+            Tech &amp; Financial Consulting for enterprises that refuse to stand still.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="LinkedIn" data-modal-trigger>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter" data-modal-trigger>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Email" data-modal-trigger>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h5 class="footer__heading">Services</h5>
+          <ul class="footer__links">
+            <li><a href="#services" class="footer__link">Digital Transformation</a></li>
+            <li><a href="#services" class="footer__link">Financial Strategy</a></li>
+            <li><a href="#services" class="footer__link">Data &amp; Analytics</a></li>
+            <li><a href="#services" class="footer__link">Risk &amp; Compliance</a></li>
+            <li><a href="#services" class="footer__link">Technology Advisory</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h5 class="footer__heading">Company</h5>
+          <ul class="footer__links">
+            <li><a href="#approach" class="footer__link">Our Approach</a></li>
+            <li><a href="#results" class="footer__link">Results</a></li>
+            <li><a href="#team" class="footer__link">Leadership</a></li>
+            <li><a href="#insights" class="footer__link">Insights</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h5 class="footer__heading">Get in Touch</h5>
+          <ul class="footer__links footer__contact">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>1 Maritime Plaza, San Francisco, CA</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>contact@vanguardnexus.com</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>+1 (415) 555-0188</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Vanguard Nexus Consulting LLC. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__link" data-modal-trigger>Privacy Policy</a>
+          <a href="#" class="footer__link" data-modal-trigger>Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal" id="infoModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+    <div class="modal__dialog">
+      <button class="modal__close" id="modalClose" aria-label="Close dialog">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal__icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/><polyline points="22,6 12,13 2,6"/></svg>
+      </div>
+      <h3 class="modal__title" id="modalTitle">Thank You for Your Interest</h3>
+      <p class="modal__message">
+        This is a portfolio sample project demonstrating my web development skills. For inquiries or custom web design services, please get in touch directly via email!
+      </p>
+      <button class="btn btn--primary modal__action" id="modalDismiss">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
